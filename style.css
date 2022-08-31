@@ -112,6 +112,7 @@ code {
     text-align: center;
     margin-top: 50px;
     color: black;
+    font-weight: bolder;
 }
 
 @media only screen and (max-width: 1000px){
