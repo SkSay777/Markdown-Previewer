@@ -1,8 +1,7 @@
 body {
     margin: 0 auto;
     height: 100%;
-    /* font-family: 'Helvetica Neue', Arial, sans-serif; */
-    font-family: 'HILOGINBOLD','Orbitron', sans-serif;  
+    font-family: 'HILOGINBOLD', 'DotGothic16', 'Orbitron', sans-serif;   
     color: #333;
     background-color: #4c4c4c;
     background-image: url("dce5y5n-423b0af9-8305-4f59-9d72-548ba6a588e3.gif");
@@ -57,7 +56,7 @@ body {
     outline: none;
     background-color: rgb(246 246 246);
     font-size: 1em;
-    font-family: 'HILOGINBOLD','Orbitron', sans-serif;  
+    font-family: 'HILOGINBOLD', 'DotGothic16', 'Orbitron', sans-serif;  
     padding: 1.9em;
     width: 90%;
     background-color: rgba(255, 255, 255, 0.2);
@@ -74,7 +73,7 @@ code {
 .nav {
     background-color: rgb(43, 45, 49);
     color: whitesmoke;
-    font-family: 'HILOGINBOLD','Orbitron', sans-serif;   
+    font-family: 'HILOGINBOLD', 'DotGothic16', 'Orbitron', sans-serif;    
     position: absolute;
     top: 0px;
     width: 98.2%;
@@ -89,7 +88,7 @@ code {
     background-color: rgba(253, 244, 223, 0.368);
     color: whitesmoke;
     height: 3.5rem;
-    font-family: 'HILOGINBOLD','Orbitron', sans-serif;  
+    font-family: 'HILOGINBOLD', 'DotGothic16', 'Orbitron', sans-serif;   
     padding-top: 60px;
 }
 
@@ -135,7 +134,7 @@ code {
         display: block;
         border-bottom: 4px solid whitesmoke;
         color: whitesmoke;
-        font-family: 'HILOGINBOLD','Orbitron', sans-serif;  
+        font-family: 'HILOGINBOLD', 'DotGothic16', 'Orbitron', sans-serif;  
         font-size: 2em;
     }
 
