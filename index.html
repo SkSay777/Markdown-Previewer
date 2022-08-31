@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mark Down Previewer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&family=Cookie&family=Lato&display=swap">
+    <link href="http://fonts.cdnfonts.com/css/hilogin" rel="stylesheet">            
+    <link  href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="icon" href="https://img.icons8.com/nolan/64/markdown.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="nav">
+        <h1 id="page-header">
+            MarkDown Previewer
+        </h1>
+    </header>
+    <div class='header'>
+
+    </div>
+    <div class="box">
+        <div id="content">
+            <div class="labels">
+                <h2 class="label-1">Editor</h2>
+                <h2 class="label-2">Preview</h2>
+            </div>
+            <div id='editor-container'>
+                <h2 class="label-3">Editor</h2>
+                <!-- editor updates previewer as typed-->
+                <textarea id="editor" cols="100" rows="15">
+# Welcome to Markdown
+
+Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents.
+                    
+## How to use this?
+                    
+1. Write markdown in the markdown editor window
+2. See the rendered markdown in the preview window
+                    
+### Features
+                    
+- Create headings, paragraphs, links, blockquotes, inline-code, code blocks, and lists
+- Name and save the document to access again later
+- Choose between Light or Dark mode depending on your preference
+                    
+> This is an example of a blockquote. If you would like to learn more about markdown syntax, you can visit this [markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/).
+                    
+#### Headings
+                    
+To create a heading, add the hash sign (#) before the heading. The number of number signs you use should correspond to the heading level. You'll see in this guide that we've used all six heading levels (not necessarily in the correct way you should use headings!) to illustrate how they should look.
+                    
+##### Lists
+                    
+You can see examples of ordered and unordered lists above.
+                    
+###### Code Blocks
+                    
+This markdown editor allows for inline-code snippets, like this: `<p>I'm inline</p>`. It also allows for larger code blocks like this:
+                    
+                    ```
+<main>
+<h1>This is a larger code block</h1>
+</main>
+            </textarea>
+            </div>
+            <h2 class="label-4">Preview</h2>
+            <div id="preview-container">
+                <div id="preview">
+                    <!-- the output goes here  -->
+                    Make changes in the editor to see the output!
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="foot">
+            <div>
+                <img src="icons8-twitter-30.png" alt="twitter">
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/facebook-f.png" alt="fb"/>
+                <img src="https://img.icons8.com/windows/32/000000/linkedin-2.png" alt="linkedin"/>
+                <img src="https://img.icons8.com/material-outlined/24/000000/github.png" alt="github"/>
+            </div>
+            © 2022 Copyright: Sk Sayan
+        </div>
+    </div>
+    <!-- script tag and marked cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
